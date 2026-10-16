@@ -1,0 +1,15 @@
+spring:
+    datasource:
+        url: ${DB_URL:jdbc:postgresql://localhost:5432/departures}
+        username: ${DB_USER:departures}
+        password: ${DB_PASSWORD:departures}
+    jpa:
+        hibernate:
+            ddl-auto: validate
+        open-in-view: false
+    flyway:
+        enabled: true
+app:
+    import:
+        enabled: true
+        path: data/gtfs
