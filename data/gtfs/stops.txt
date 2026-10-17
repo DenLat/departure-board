@@ -1,0 +1,4 @@
+stop_id,stop_name,stop_lat,stop_lon
+S1,Alexanderplatz,52.5219,13.4132
+S2,Klosterstraße,52.5169,13.4126
+S3,Märkisches Museum,52.5121,13.4083
